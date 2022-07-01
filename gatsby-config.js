@@ -12,16 +12,7 @@ module.exports = {
     },
   },
   plugins: [
-    {
-      resolve: 'gatsby-source-airtable',
-      options: {
-        apiKey: 'keyT4kaMtXoFjjGqh',
-        baseId: 'app7Dd4JJ1IwhOgHS',
-        tableName: 'cms',
-        tableView: 'published',
-        queryName: ''
-      }
-    },
+   
     {
       resolve: `gatsby-source-filesystem`,
       options: {
