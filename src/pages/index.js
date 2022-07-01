@@ -1,5 +1,20 @@
 import React from "react"
+import { Match } from '@reach/router'
+
+
 
 export default function Home() {
-  return <div>Hello world!</div>
+  
+  <>
+    <Match path="/">
+      {
+        window.location.href="/Admin/Pages/homepage"
+      }
+    </Match>
+
+  
+   
+    
+  </>
+
 }
